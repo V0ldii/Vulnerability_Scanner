@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div class="container">
+    <div class="header">
+      
+      <h2><img src="logo.png" alt="Cyber Guard Logo" width="90" height="90">Cyber Guard</h2>
+      
+    </div>
+      <div class="form-group">
+        <label for="data-url">URL</label>
+        <input type="text" id="data-url" placeholder="Enter Data URL" />
+      </div>
+      <div class="form-group">
+        <label for="ip-address">IP Address</label>
+        <input
+          type="text"
+          id="ip-address"
+          placeholder="Enter IP Address for Scanning"
+        />
+      </div>
+      <div class="form-group">
+        <label for="file-input">Upload File</label>
+        <input type="file" id="file-input" />
+      </div>
+      <div class="form-group">
+        <button id="start-analysis-btn">Start Analysis</button>
+      </div>
+      <div id="result-container"></div>
+    </div>
+    
+    <script src="app.js"></script>
+    <footer>
+      <div class="footer-col">
+         <h4>Contact Us</h4>
+         <ul>
+          <li><a href="mailto:rhea.rai6392@gmail.com">Annu</a></li>
+          <li><a href="mailto:kvishnudas05@gmail.com">Vishnu</a></li>
+          <li><a href="mailto:khushiebishnoi@gmail.com">Khushi</a></li>
+
+         </ul>
+         <br>
+      </div>
+      <div class="footer-col">
+         <h4>About Us</h4>
+         <ul>
+           <li><a href="abc">About Us</a></li>
+           
+         </ul>
+      </div>
+  </body>
+</html>
